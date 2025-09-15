@@ -1,0 +1,115 @@
+/* Стили для HTML вывода */
+body {
+    font-family: "Liberation Serif", "Times New Roman", serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    margin: 2cm;
+    color: #2c3e50;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Liberation Sans", "Arial", sans-serif;
+    font-weight: bold;
+    margin: 24pt 0 12pt 0;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 24pt;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 20pt;
+    color: #34495e;
+}
+
+h3 {
+    font-size: 16pt;
+    color: #7f8c8d;
+}
+
+p {
+    margin: 0 0 12pt 0;
+    text-align: justify;
+}
+
+/* Код */
+code {
+    font-family: "Liberation Mono", "Courier New", monospace;
+    background-color: #f8f9fa;
+    padding: 2px 4px;
+    border-radius: 3px;
+    border: 1px solid #e9ecef;
+}
+
+pre {
+    font-family: "Liberation Mono", "Courier New", monospace;
+    background-color: #f8f9fa;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #e9ecef;
+    overflow-x: auto;
+    margin: 12pt 0;
+}
+
+pre code {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+/* Цитаты */
+blockquote {
+    border-left: 4px solid #3498db;
+    margin: 0 0 12pt 0;
+    padding-left: 16px;
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Списки */
+ul, ol {
+    margin: 0 0 12pt 0;
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+/* Таблицы */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 12pt 0;
+}
+
+th, td {
+    border: 1px solid #dee2e6;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+/* Ссылки */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Горизонтальная линия */
+hr {
+    border: none;
+    border-top: 1px solid #dee2e6;
+    margin: 24pt 0;
+}
